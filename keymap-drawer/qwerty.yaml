@@ -12,8 +12,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '-'
-  - TAB
+  - \
+  - ESCAPE
   - Q
   - W
   - E
@@ -24,8 +24,8 @@ layers:
   - I
   - O
   - P
-  - \
-  - LEFT GUI
+  - '['
+  - LEFT CONTROL
   - A
   - S
   - D
@@ -36,8 +36,8 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: LEFT ALT}
-  - {t: ESCAPE, h: Mouse}
+  - ']'
+  - LEFT ALT
   - Z
   - X
   - C
@@ -48,17 +48,17 @@ layers:
   - ','
   - .
   - /
-  - {t: CAPSLOCK, h: Mouse}
-  - SPACE
-  - LEFT CONTROL
-  - Numbers
-  - DELETE
-  - ENTER
+  - ''''
+  - LEFT COMMAND
+  - {t: TAB, h: Scroll}
   - LEFT SHIFT
-  - Function
   - BACK SPACE
+  - SPACE
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - ENTER
   Numbers:
-  - KP NUM
+  - F12
   - F1
   - F2
   - F3
@@ -74,8 +74,8 @@ layers:
   - LALT
   - LCTRL
   - LSHIFT
-  - LGUI
-  - AL CALC
+  - ''
+  - ''
   - KP SUBTRACT
   - KP 7
   - KP 8
@@ -94,7 +94,7 @@ layers:
   - KP 6
   - KP MULTIPLY
   - KP DIVIDE
-  - Mouse
+  - KP NUM
   - ''
   - ''
   - ''
@@ -105,14 +105,14 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - KP ENTER
+  - KP EQUAL
   - SPACE
   - LEFT CONTROL
-  - {type: held}
-  - KP CLEAR
+  - {t: Base, h: Base}
+  - CALC
   - '='
   - LEFT SHIFT
-  - ''
+  - {t: Function, h: Function}
   - BACK SPACE
   Function:
   - '~'
@@ -128,10 +128,10 @@ layers:
   - )
   - _
   - ''
-  - LALT
-  - LCTRL
-  - LSHIFT
-  - LGUI
+  - ''
+  - ''
+  - END
+  - ''
   - ''
   - ''
   - PAGE UP
@@ -151,9 +151,9 @@ layers:
   - RIGHT
   - ':'
   - '"'
-  - Mouse
   - ''
-  - END
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -165,11 +165,11 @@ layers:
   - ''
   - SPACE
   - LEFT CONTROL
-  - ''
+  - {t: Numbers, h: Numbers}
   - DELETE
   - ENTER
   - LEFT SHIFT
-  - {type: held}
+  - {t: Base, h: Base, type: held}
   - BACK SPACE
   Mouse:
   - BT CLR
@@ -184,48 +184,48 @@ layers:
   - ''
   - ''
   - '&sys_reset'
-  - BT CLR ALL
+  - ''
   - LALT
   - LCTRL
   - LSHIFT
-  - LGUI
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ZMK Studio
+  - ''
+  - ''
   - ''
   - ''
   - ''
   - ''
   - Scroll
   - ''
-  - {t: Base, h: toggle}
+  - ''
+  - Scroll
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - {type: held}
+  - BT CLR ALL
   - ''
   - ''
   - ''
   - {t: Scroll, h: toggle}
   - ''
   - ''
+  - {t: Scroll, h: toggle}
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - ZMK Studio
   - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB3'
+  - Scroll
+  - ''
   - '&mkp MB3'
   - '&mkp MB1'
-  - '&mkp MB2'
+  - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB2'
   Scroll:
@@ -242,10 +242,6 @@ layers:
   - ''
   - ''
   - ''
-  - LALT
-  - LCTRL
-  - LSHIFT
-  - LGUI
   - ''
   - ''
   - ''
@@ -257,7 +253,6 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
   - ''
   - ''
@@ -265,7 +260,12 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -278,7 +278,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
