@@ -52,7 +52,7 @@ layers:
   - LEFT SHIFT
   - '&mkp MB1'
   - LEFT GUI
-  - BACK SPACE
+  - SPACE
   - SPACE
   - '&mkp MB2'
   - {t: TAB, h: Scroll}
