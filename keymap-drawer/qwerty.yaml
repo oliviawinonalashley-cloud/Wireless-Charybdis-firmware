@@ -55,7 +55,7 @@ layers:
   - BACK SPACE
   - SPACE
   - '&mkp MB1'
-  - '&lt MB2'
+  - '&mkp MB2'
   - ENTER
   Numbers:
   - F12
