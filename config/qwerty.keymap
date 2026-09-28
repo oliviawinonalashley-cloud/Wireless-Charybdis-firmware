@@ -40,48 +40,48 @@
         BASE {
             display-name = "Base";
             bindings = <
-&kp GRAVE     &kp N1  &kp N2  &kp N3     &kp N4            &kp N5         &kp N6         &kp N7     &kp N8     &kp N9   &kp N0         &kp MINUS
-&kp TAB       &kp Q   &kp W   &kp E      &kp R             &kp T          &kp Y          &kp U      &kp I      &kp O    &kp P          &kp BACKSLASH
-&kp LEFT_GUI  &kp A   &kp S   &kp D      &kp F             &kp G          &kp H          &kp J      &kp K      &kp L    &kp SEMICOLON  &mt LEFT_ALT SINGLE_QUOTE
-&lt 3 ESCAPE  &kp Z   &kp X   &kp C      &kp V             &kp B          &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH      &lt 3 CAPSLOCK
-                              &kp SPACE  &kp LEFT_CONTROL  &mo_to 1 1   &kp DELETE     &kp ENTER
-                                         &kp LEFT_SHIFT    &mo_to 2 2   &kp BACKSPACE
+&kp GRAVE         &kp N1  &kp N2  &kp N3            &kp N4     &kp N5            &kp N6         &kp N7     &kp N8     &kp N9   &kp N0         &kp BACKSLASH
+&kp ESCAPE        &kp Q   &kp W   &kp E             &kp R      &kp T             &kp Y          &kp U      &kp I      &kp O    &kp P          &kp LEFT_BRACKET
+&kp LEFT_CONTROL  &kp A   &kp S   &kp D             &kp F      &kp G             &kp H          &kp J      &kp K      &kp L    &kp SEMICOLON  &kp RIGHT_BRACKET
+&kp LEFT_ALT      &kp Z   &kp X   &kp C             &kp V      &kp B             &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH      &kp APOS
+                                  &kp LEFT_COMMAND  &lt 4 TAB  &kp LEFT_SHIFT    &kp BACKSPACE  &kp SPACE
+                                                    &mkp MB1   &mkp MB2          &kp ENTER
             >;
         };
 
         NUM {
             display-name = "Numbers";
             bindings = <
-&kp F12     &kp F1    &kp F2     &kp F3      &kp F4            &kp F5         &kp F6           &kp F7        &kp F8     &kp F9     &kp F10           &kp F11
-&none       &kp LALT  &kp LCTRL  &kp LSHIFT  &none             &none          &kp KP_SUBTRACT  &kp KP_N7     &kp KP_N8  &kp KP_N9  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&none       &none     &none      &none       &none             &none          &kp KP_PLUS      &kp KP_N4     &kp KP_N5  &kp KP_N6  &kp KP_MULTIPLY   &kp KP_DIVIDE
-&kp KP_NUM  &none     &none      &none       &none             &none          &kp KP_N0        &kp KP_N1     &kp KP_N2  &kp KP_N3  &kp KP_DOT        &kp KP_EQUAL
-                                 &kp SPACE   &kp LEFT_CONTROL  &mo_to 0 0     &kp K_CALC       &kp EQUAL
-                                             &kp LEFT_SHIFT    &mo_to 2 2     &kp BACKSPACE
+&kp F12     &kp F1    &kp F2     &kp F3      &kp F4            &kp F5        &kp F6           &kp F7     &kp F8     &kp F9     &kp F10           &kp F11
+&none       &kp LALT  &kp LCTRL  &kp LSHIFT  &none             &none         &kp KP_SUBTRACT  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&none       &none     &none      &none       &none             &none         &kp KP_PLUS      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MULTIPLY   &kp KP_DIVIDE
+&kp KP_NUM  &none     &none      &none       &none             &none         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT        &kp KP_EQUAL
+                                 &kp SPACE   &kp LEFT_CONTROL  &mo_to 0 0    &kp K_CALC       &kp EQUAL
+                                             &kp LEFT_SHIFT    &mo_to 2 2    &kp BACKSPACE
             >;
         };
 
         FUNC {
             display-name = "Function";
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp AT    &kp HASH       &kp DLLR          &kp PERCENT         &kp CARET      &kp AMPS     &kp ASTRK  &kp LPAR    &kp RPAR   &kp UNDER
-&none      &none            &none     &kp END        &none             &none               &none          &kp PAGE_UP  &none      &kp INSERT  &none      &kp PIPE
-&none      &none            &kp HOME  &kp PAGE_DOWN  &none             &none               &kp LEFT       &kp DOWN     &kp UP     &kp RIGHT   &kp COLON  &kp DQT
-&none      &none            &none     &none          &none             &none               &none          &none        &none      &none       &none      &none
-                                      &kp SPACE      &kp LEFT_CONTROL  &mo_to 1 1          &kp DELETE     &kp ENTER
-                                                     &kp LEFT_SHIFT    &mo_to 0 0          &kp BACKSPACE
+&kp TILDE  &kp EXCLAMATION  &kp AT    &kp HASH       &kp DLLR          &kp PERCENT    &kp CARET      &kp AMPS     &kp ASTRK  &kp LPAR    &kp RPAR   &kp UNDER
+&none      &none            &none     &kp END        &none             &none          &none          &kp PAGE_UP  &none      &kp INSERT  &none      &kp PIPE
+&none      &none            &kp HOME  &kp PAGE_DOWN  &none             &none          &kp LEFT       &kp DOWN     &kp UP     &kp RIGHT   &kp COLON  &kp DQT
+&none      &none            &none     &none          &none             &none          &none          &none        &none      &none       &none      &none
+                                      &kp SPACE      &kp LEFT_CONTROL  &mo_to 1 1     &kp DELETE     &kp ENTER
+                                                     &kp LEFT_SHIFT    &mo_to 0 0     &kp BACKSPACE
             >;
         };
 
         MOUSE {
             display-name = "Mouse";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4          &none     &none     &none  &none  &none  &sys_reset
-&none           &kp LALT      &kp LCTRL     &kp LSHIFT    &none              &none                 &none     &none     &none  &none  &none  &none
-&none           &none         &none         &none         &mo 4              &none                 &none     &mo 4     &none  &none  &none  &none
-&bt BT_CLR_ALL  &none         &none         &none         &to 4              &none                 &none     &to 4     &none  &none  &none  &studio_unlock
-                                            &mkp MB1      &none              &none                 &mkp MB3  &mkp MB1
-                                            &mkp MB2      &mkp MB3           &mkp MB2
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none     &none     &none  &none  &none  &sys_reset
+&none           &kp LALT      &kp LCTRL     &kp LSHIFT    &none         &none           &none     &none     &none  &none  &none  &none
+&none           &none         &none         &none         &mo 4         &none           &none     &mo 4     &none  &none  &none  &none
+&bt BT_CLR_ALL  &none         &none         &none         &to 4         &none           &none     &to 4     &none  &none  &none  &studio_unlock
+                                            &mkp MB1      &mo 4         &none           &mkp MB3  &mkp MB1
+                                                          &mkp MB1      &mkp MB2        &mkp MB2
             >;
         };
 
