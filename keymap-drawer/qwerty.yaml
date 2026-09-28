@@ -49,13 +49,13 @@ layers:
   - .
   - /
   - ''''
-  - LEFT SHIFT
-  - '&mkp MB1'
   - LEFT COMMAND
+  - {t: TAB, h: Scroll}
+  - LEFT SHIFT
   - BACK SPACE
   - SPACE
-  - '&mkp MB2'
-  - {t: TAB, h: Scroll}
+  - '&mkp MB1'
+  - '&lt MB2'
   - ENTER
   Numbers:
   - F12
@@ -278,12 +278,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
 combos:
 - p: [12, 50]
