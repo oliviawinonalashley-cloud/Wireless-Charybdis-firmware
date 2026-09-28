@@ -49,7 +49,7 @@ layers:
   - .
   - /
   - ''''
-  - LEFT COMMAND
+  - LEFT GUI
   - {t: TAB, h: Scroll}
   - LEFT SHIFT
   - BACK SPACE
