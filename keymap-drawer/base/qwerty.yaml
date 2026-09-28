@@ -1,62 +1,7 @@
 layout: {zmk_keyboard: qwerty}
 layers:
-  Base:
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - \
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '['
-  - LEFT CONTROL
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ']'
-  - LEFT ALT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - ''''
-  - LEFT GUI
-  - {t: TAB, h: Scroll}
-  - LEFT SHIFT
-  - BACK SPACE
-  - SPACE
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - ENTER
+  Base: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', \, ESCAPE, Q, W, E, R, T, Y, U, I, O, P, '[', LEFT CONTROL, A, S, D, F, G, H, J, K, L, ;, ']', LEFT
+      ALT, Z, X, C, V, B, N, M, ',', ., /, '''', LEFT SHIFT, '&mkp 4 TAB', LEFT GUI, BACK SPACE, SPACE, '&mkp MB2', '&mkp MB1', ENTER]
   Numbers:
   - F12
   - F1
@@ -257,7 +202,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -278,7 +223,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
