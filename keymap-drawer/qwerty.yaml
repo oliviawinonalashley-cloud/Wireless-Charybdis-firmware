@@ -50,12 +50,12 @@ layers:
   - /
   - ''''
   - LEFT SHIFT
-  - {t: TAB, h: Scroll}
+  - '&mkp MB1'
   - LEFT GUI
   - BACK SPACE
   - SPACE
   - '&mkp MB2'
-  - '&mkp MB1'
+  - {t: TAB, h: Scroll}
   - ENTER
   Numbers:
   - F12
@@ -278,12 +278,12 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
 combos:
 - p: [12, 50]
